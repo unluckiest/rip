@@ -1,0 +1,182 @@
+a:link, a:visited{
+	color: white;
+    text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+	background: black;
+	color: white;
+}
+
+.header{
+	position: relative;
+	font-size: 48px;
+	text-align: center;
+	padding-left: 40px;
+	
+}
+
+nav ul{
+	position: relative;
+    text-align: center;
+}
+
+nav li{
+	display: inline;
+    margin: 13px;	
+    padding: 12px;
+	font-weight: bold;
+}
+
+.content{
+	position: relative;
+	display: block;
+	border: solid;
+	width: 533px;
+	height: 400px;
+	margin-left: 425px;
+	margin-bottom: 25px;
+	background: white;
+    color: black;	
+}
+
+h2{
+	position: relative;
+	text-align: center;
+	font-size: 24px;
+}
+
+p{
+	position: relative;
+	display: inline;
+	white-space: pre-line;
+}
+
+.stories{
+	text-align: center;
+	display: block;
+	margin: 13px;	
+    padding: 0px 3px;
+}
+
+.story{
+	width: 533px;
+	height: 330px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#goldfishes{
+	color: black;
+	text-decoration: none;
+}
+
+#goldfishes:hover{
+	color: red;
+}
+
+#me{
+	color: black;
+}
+
+#me:hover{
+	color: #FFC0CB;
+}
+
+#writing{
+	color: black;
+}
+
+#writing:hover{
+	color: red;
+}
+
+#music:hover{
+	font-size: 0px;
+}
+
+#music:hover:after{
+	content: attr(data-hover);
+	color: orange;
+	font-size: 16px;
+}
+
+#money:hover{
+	font-size: 0px;
+}
+
+#money:hover:after{
+	content: attr(data-hover);
+	color: green;
+	font-size: 16px;
+}
+
+#love:hover{
+	font-size: 0px;
+}
+
+#love:hover:after{
+	content: attr(data-hover);
+	color: red;
+	font-size: 16px;
+}
+
+#language:hover{
+	font-size: 0px;
+}
+
+#language:hover:after{
+	content: attr(data-hover);
+	color: brown;
+	font-size: 16px;
+}
+
+#personal{
+	display: block;
+	margin: 60px 230px;
+	
+}
+
+#business{
+	display: block;
+	margin: 70px 230px;
+	
+}
+
+#number{
+	display: block;
+	text-align: center;
+	white-space: pre-line;
+	margin: 35px;
+}
+
+	
+#fb, #ig, #sc{
+	position: relative;
+	display: inline;
+	float: right;
+	margin: 0px 3px;
+	width: 24px;
+	height: 24px;
+}
+
+hr{
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer{
+	position: relative;
+	margin-top: 10px;
+}
