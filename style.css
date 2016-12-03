@@ -2,6 +2,17 @@
 	width: device-width;
 }
 
+/* -------- default ----------- */ 
+#mydiv { font-size: 12px; background-color: #9F0; } 
+/* --------- smartphone ----------- */ 
+@media screen and (max-width: 767px) { #mydiv { font-size: 14px; background-color: #636; } } 
+/* -------- tablets----------- */ 
+@media screen and (min-width: 768px) { #mydiv { font-size: 16px; background-color: #FF0; } } 
+/* --------- small desktop screen ------------- */ 
+@media screen and (min-width: 1024px) { #mydiv { font-size: 14px; background-color: #090; } } 
+/* --------- large desktop screen ------------- */ 
+@media screen and (min-width: 1280px) { #mydiv { font-size: 16px; background-color: #060; } }
+
 a:link, a:visited{
 	color: white;
     text-decoration: none;
