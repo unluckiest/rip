@@ -43,31 +43,45 @@ nav li{
 
 @media screen and (min-width: 320px, max-width: 479px){
 section{
-	max-width: 320px;
-	max-height: 352px;
+	width: 320px;
+	height: 352px;
 }
 }
 
 @media screen and (min-width: 480px, max-width: 767px){
 section{
-	max-width: 480px;
-	max-height: 202px;
+	width: 480px;
+	height: 202px;
 }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (min-width: 1024px){
 section{
-	max-width: 640px;
-	max-height: 960px;
+	width: 512px;
+	height: 384px;
+}
+
+.story{
+	height: 301px;
 }
 }
+
+@media screen and (min-width: 1440px){
+section{
+	width: 720px;
+	height: 450px;
+}
+
+.story{
+	height: 377px;
+}
+}
+
 
 section{
 	border: yellow;
 	position: relative;
 	display: block;
-	width: 512px;
-	height: 384px;
     margin: auto;
 	background-color: white;
     color: black;
@@ -81,7 +95,6 @@ h2{
 	display: block;
 	text-align: center;
 	font-size: 24px;
-	border: 1px red solid;
 	padding: 15px;
 }
 
@@ -97,9 +110,7 @@ p{
 }
 
 .story{
-	border: 1px red solid;
 	width: 100%;
-	height: 301px;
 	overflow: scroll;
 	overflow-x: hidden;
 	white-space: pre;
@@ -170,24 +181,18 @@ p{
 	font-size: 16px;
 }
 
-#personal{
-	position: relative;
-	display: block;
-	margin: 0 auto;
-}
-
-#business{
-	position: relative;
-	display: block;
-	margin: 0 auto;
-}
-
 #number{
 	display: block;
 	text-align: center;
 	white-space: pre-line;
 }
 
+#personal, #business{
+	position: relative;
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+}
 
 footer{
 	position: fixed;
