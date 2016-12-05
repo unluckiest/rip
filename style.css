@@ -42,7 +42,7 @@ nav li{
             box-sizing: border-box;
 }
 
-@media screen and (min-width: 320px){
+/*@media screen and (min-width: 320px){
 section{
 	width: 320px;
 	height: 352px;
@@ -54,7 +54,7 @@ section{
 	width: 480px;
 	height: 202px;
 }
-}
+}*/
 
 @media screen and (min-width: 768px){
 section{
