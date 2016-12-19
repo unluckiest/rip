@@ -97,7 +97,6 @@ section{
 
 
 section{
-	border: yellow;
 	position: relative;
 	display: block;
     margin: auto;
@@ -126,6 +125,7 @@ p{
 #intro{
 	display: block;
 	text-align: center;
+	white-space: pre;
 }
 
 .stories{
@@ -139,7 +139,7 @@ p{
 	width: 100%;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	white-space: pre;
+	white-space: pre-line;
 }
 
 #goldfish{
